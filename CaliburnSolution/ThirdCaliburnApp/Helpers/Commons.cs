@@ -1,0 +1,51 @@
+﻿using System;
+using System.Text.RegularExpressions;
+
+namespace ThirdCaliburnApp
+{
+    public class Commons
+    {
+        internal static readonly string CONNSTRING =
+            "Data source = localhost;Port=3306;Database=testdb;Uid=root;Password=0000;";
+
+        internal static bool IsNumpric(string text)
+        {
+            Regex regex = new Regex("[^0-9.-]+"); // 숫자, -, + 만 입력가능
+            return !regex.IsMatch(text);
+        }
+    }
+
+    public class EmployeesTbl
+    {
+        public static string SELECT_EMPLOYEES = "SELECT id, " +
+                                                  "       EmpName, " +
+                                                  "       Salary, " +
+                                                  "       DeptName, " +
+                                                  "       Destination " +
+                                                  "  FROM employeestbl ";
+
+        internal static string INSERT_EMPLOYEES = "INSERT INTO employeestbl " +
+                                                  "( " +
+                                                  "            EmpName, " +
+                                                  "            Salary, " +
+                                                  "            DeptName, " +
+                                                  "            Destination " +
+                                                  "          ) VALUES (  " +
+                                                  "            @EmpName , " +
+                                                  "            @Salary , " +
+                                                  "            @DeptName , " +
+                                                  "            @Destination " +
+                                                  " ) " ;
+
+        internal static string UPDATE_EMPLOYEES = "UPDATE employeestbl " +
+                                                  "       SET " +
+                                                  "       EmpName = @EmpName, " +
+                                                  "       Salary = @Salary, " +
+                                                  "       DeptName = @DeptName, " +
+                                                  "       Destination = @Destination " +
+                                                  " WHERE id = @id ";
+
+        internal static string DELETE_EMPLOYEES = "DELETE FROM employeestbl " +
+                                                  " WHERE id = @id ";
+    }
+}
