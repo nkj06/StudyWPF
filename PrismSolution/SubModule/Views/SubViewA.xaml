@@ -1,8 +1,10 @@
 ﻿<UserControl 
-    x:Class="FirstPrismApp.Views.SubView"
+    x:Class="SubModule.Views.SubViewA"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
     <Grid Background="Aquamarine">
-        <TextBlock Text="SubView" FontSize="20" TextAlignment="Left" VerticalAlignment="Bottom" />
+        <TextBlock Text="SubView A" FontSize="20" TextAlignment="Right"/>
     </Grid>
+    
 </UserControl>

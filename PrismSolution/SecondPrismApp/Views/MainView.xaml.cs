@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FirstPrismApp.Views
+namespace SecondPrismApp.Views
 {
     /// <summary>
-    /// SubView.xaml에 대한 상호 작용 논리
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class SubView : UserControl
+    public partial class MainView : Window
     {
-        public SubView()
+        public MainView()
         {
             InitializeComponent();
         }

@@ -1,19 +1,12 @@
-﻿using FirstPrismApp.Views;
-using Prism.Ioc;
+﻿using Prism.Ioc;
 using Prism.Unity;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+using SecondPrismApp.Views;
 using System.Windows;
 
-namespace FirstPrismApp
+namespace SecondPrismApp
 {
     /// <summary>
-    /// App.xaml에 대한 상호 작용 논리
+    /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : PrismApplication
     {
@@ -23,8 +16,6 @@ namespace FirstPrismApp
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
-        {
-
-        }
+        {}
     }
 }
