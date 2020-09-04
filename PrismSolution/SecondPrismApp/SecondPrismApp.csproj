@@ -21,6 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LeftModule\LeftModule.csproj" />
+    <ProjectReference Include="..\PrismApp.Core\PrismApp.Core.csproj" />
+    <ProjectReference Include="..\RightModule\RightModule.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="prism-logo.ico" />
   </ItemGroup>
 

@@ -1,4 +1,5 @@
 ﻿using Prism.Ioc;
+using Prism.Modularity;
 using Prism.Unity;
 using SecondPrismApp.Views;
 using System.Windows;
@@ -15,7 +16,13 @@ namespace SecondPrismApp
             return Container.Resolve<MainView>();
         }
 
-        protected override void RegisterTypes(IContainerRegistry containerRegistry)
-        {}
+        protected override void RegisterTypes(IContainerRegistry containerRegistry) { }
+
+        protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
+        {
+            // base.ConfigureModuleCatalog(moduleCatalog);
+            moduleCatalog.AddModule<LeftModule.ModuleLoader>();
+            moduleCatalog.AddModule<RightModule.RightModuleLoader>();
+        }
     }
 }

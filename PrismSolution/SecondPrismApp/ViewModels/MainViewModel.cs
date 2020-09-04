@@ -20,8 +20,5 @@ namespace SecondPrismApp.ViewModels
         {
             DisplayName = "Hello";
         }
-
-
-
     }
 }
