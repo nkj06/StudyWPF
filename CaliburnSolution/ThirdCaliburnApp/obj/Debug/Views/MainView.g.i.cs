@@ -57,7 +57,7 @@ namespace ThirdCaliburnApp.Views {
         #line hidden
         
         
-        #line 53 "..\..\..\Views\MainView.xaml"
+        #line 52 "..\..\..\Views\MainView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button GetEmployees;
         
@@ -65,7 +65,7 @@ namespace ThirdCaliburnApp.Views {
         #line hidden
         
         
-        #line 70 "..\..\..\Views\MainView.xaml"
+        #line 69 "..\..\..\Views\MainView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Grid SelectedEmployee;
         
@@ -73,7 +73,7 @@ namespace ThirdCaliburnApp.Views {
         #line hidden
         
         
-        #line 95 "..\..\..\Views\MainView.xaml"
+        #line 94 "..\..\..\Views\MainView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox Id;
         
@@ -81,7 +81,7 @@ namespace ThirdCaliburnApp.Views {
         #line hidden
         
         
-        #line 100 "..\..\..\Views\MainView.xaml"
+        #line 99 "..\..\..\Views\MainView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox EmpName;
         
@@ -89,7 +89,7 @@ namespace ThirdCaliburnApp.Views {
         #line hidden
         
         
-        #line 105 "..\..\..\Views\MainView.xaml"
+        #line 104 "..\..\..\Views\MainView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox Salary;
         
@@ -97,7 +97,7 @@ namespace ThirdCaliburnApp.Views {
         #line hidden
         
         
-        #line 111 "..\..\..\Views\MainView.xaml"
+        #line 110 "..\..\..\Views\MainView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox DeptName;
         
@@ -105,7 +105,7 @@ namespace ThirdCaliburnApp.Views {
         #line hidden
         
         
-        #line 116 "..\..\..\Views\MainView.xaml"
+        #line 115 "..\..\..\Views\MainView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox Destination;
         
@@ -113,7 +113,7 @@ namespace ThirdCaliburnApp.Views {
         #line hidden
         
         
-        #line 124 "..\..\..\Views\MainView.xaml"
+        #line 123 "..\..\..\Views\MainView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button NewEmployee;
         
@@ -121,7 +121,7 @@ namespace ThirdCaliburnApp.Views {
         #line hidden
         
         
-        #line 139 "..\..\..\Views\MainView.xaml"
+        #line 138 "..\..\..\Views\MainView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button SaveEmployee;
         
@@ -129,7 +129,7 @@ namespace ThirdCaliburnApp.Views {
         #line hidden
         
         
-        #line 154 "..\..\..\Views\MainView.xaml"
+        #line 153 "..\..\..\Views\MainView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button DeleteEmployee;
         
@@ -184,7 +184,7 @@ namespace ThirdCaliburnApp.Views {
             case 6:
             this.Salary = ((System.Windows.Controls.TextBox)(target));
             
-            #line 109 "..\..\..\Views\MainView.xaml"
+            #line 108 "..\..\..\Views\MainView.xaml"
             this.Salary.PreviewTextInput += new System.Windows.Input.TextCompositionEventHandler(this.Salary_PreviewTextInput);
             
             #line default
